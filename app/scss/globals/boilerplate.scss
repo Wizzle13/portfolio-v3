@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box; //helps with adding boarder or padding.  
+    font-size: 100%; //defaults to 16px
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0; //reset rules
+    padding: 0; //reset rules
+}
