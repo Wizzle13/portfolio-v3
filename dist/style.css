@@ -1,2 +1,2 @@
-:root{--background:#1e202a;--text:#8b97c6}body{cursor:url(../../../images/cursor/gold.png),auto}*{box-sizing:border-box;font-family:Poppins,sans-serif;margin:0;padding:0}html{font-size:100%}*,:after,:before{box-sizing:inherit}h1,h2,h3{font-weight:700;line-height:1.1}h1,h2,h3,p{margin-top:0}a,a:active,a:visited{text-decoration:none}
+:root{--background:#1e202a;--text:#8b97c6;cursor:url(../../../images/cursor/gold.png),auto}*{box-sizing:border-box;font-family:Poppins,sans-serif;margin:0;padding:0}html{font-size:100%}*,:after,:before{box-sizing:inherit}body{align-items:center;display:flex;width:100%}h1,h2,h3{font-weight:700;line-height:1.1}h1,h2,h3,p{margin-top:0}a,a:active,a:visited{text-decoration:none}
 /*# sourceMappingURL=style.css.map */

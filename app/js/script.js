@@ -28,7 +28,7 @@ const myTags = [
     
  ];
  
- var tagCloud = TagCloud('.content', myTags,{
+ var tagCloud = TagCloud('.textSphere', myTags,{
  
    
    radius: 200,

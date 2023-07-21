@@ -41,6 +41,7 @@ This is my third portfolio page.
  ![None](https://img.shields.io/badge/None-blue)
  ## Resources
  Text Sphere https://codepen.io/Paruuuu/pen/KKrdZpQ
+ Email service for contact https://www.emailjs.com/
  ## Links 
  GitHub Repository: https://github.com/Wizzle13/portfolio-v3
 
