@@ -40,6 +40,7 @@ This is my third portfolio page.
  ## Tests
  ![None](https://img.shields.io/badge/None-blue)
  ## Resources
+ Text Sphere https://codepen.io/Paruuuu/pen/KKrdZpQ
  ## Links 
  GitHub Repository: https://github.com/Wizzle13/portfolio-v3
 

@@ -1,5 +1,11 @@
+*{
+    margin: 0; //reset rules
+    padding: 0; //reset rules
+    box-sizing: border-box; //helps with adding boarder or padding.
+      font-family: 'Poppins', sans-serif;
+  }
+  
 html {
-    box-sizing: border-box; //helps with adding boarder or padding.  
     font-size: 100%; //defaults to 16px
 }
 
@@ -9,7 +15,3 @@ html {
     box-sizing: inherit;
 }
 
-body {
-    margin: 0; //reset rules
-    padding: 0; //reset rules
-}
