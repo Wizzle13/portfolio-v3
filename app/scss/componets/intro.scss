@@ -1,0 +1,12 @@
+.introduction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: var(--background1);
+    color: var(--text1);
+    height: var(--sectionHeigth);
+}
+
+p {
+    justify-content: center;
+}

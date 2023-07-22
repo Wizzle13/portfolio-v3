@@ -1,0 +1,13 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--background2);
+    color: var(--text2);
+    height: var(--sectionHeigth);
+}
+
+#qrcode {
+    width: 200px;
+    height: 200px;
+  }

@@ -1,0 +1,20 @@
+.resume{
+  
+  height: var(--sectionHeight);
+  background: var(--background1);
+  color: var(--text1);
+}
+.textSphere {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certs {
+  display: flex;
+  justify-content: center;
+}
+
+.certs img {
+  width: 150px;
+}
