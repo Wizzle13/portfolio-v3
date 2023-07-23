@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris Burton</title>
     <link rel="stylesheet" href="/dist/style.css">
+    <!-- script for the text sphere -->
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
+    <!-- Script for send button anomation -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
     
 </head>
 <body>
@@ -46,11 +49,36 @@
         <div class="contact">
             <section class='contactme'>
                 <h2 class='section-title'>CONTACT ME</h2>
-                
                 <div>
-                  <a href='https://hihello.me/p/b99221b1-dab1-4451-b4b2-348908ff5254'>
-                      <img src="../images/QrCode.png" alt="QR Contact Info" id="qrcode"/>
-                  </a>    
+                    <div class="form">
+                        <form id="contact-form">
+                            <div>
+                                <input type="hidden" name="contact_number">
+                                <label htmlFor="name">Name:</label><br />
+                                <input type="text" name="name" />
+                            </div>
+                            <div>
+                                <label htmlFor="email">Email address:</label><br />
+                                <input type="email" name="email"/>
+                            </div>
+                            <div>
+                                <label htmlFor="message">Message:</label><br />
+                                <textarea name="message"></textarea>
+                            </div>
+                            <button class="button">
+                                <span class="default">Send</span>
+                                <span class="success">Sent</span>
+                                <div class="left"></div>
+                                <div class="right"></div>
+                            </button>
+                          </form>
+                    </div>
+                    
+                    <div>
+                    <a href='https://hihello.me/p/b99221b1-dab1-4451-b4b2-348908ff5254'>
+                        <img src="../images/QrCode.png" alt="QR Contact Info" id="qrcode"/>
+                    </a>    
+                    </div>
                 </div>
       
               </section>
@@ -67,7 +95,8 @@
     </main>
     
 
-    
+    <!-- script for contact emails -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
     <script src=".//dist/script.js"></script>
 </body>
 </html>
