@@ -1,15 +1,30 @@
 .contact {
+    background: var(--background);
+    color: var(--text1);
+    height: var(--sectionHeigth);
+}
+
+.section-title {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: var(--background2);
-    color: var(--text2);
-    height: var(--sectionHeigth);
+    padding: 50px
+}
+.contactsection{
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+.wrapper {
+    padding: 50px 0 50px 0;
+    
 }
 
 #qrcode {
     width: 200px;
     height: 200px;
+    margin: 0 10px;
 }
 
 textarea {
@@ -98,7 +113,7 @@ textarea {
             border-radius: calc(var(--border-radius) * 1px);
             transform: translate(var(--x, .4%), var(--y, 0)) translateZ(0);
             z-index: var(--z-index, 2);
-            background: var(--background, var(--left-wing-background));
+            background:  var(--left-wing-background);
             clip-path: polygon(calc(var(--first-x, var(--left-wing-first-x)) * 1%) calc(var(--first-y, var(--left-wing-first-y)) * 1%), calc(var(--second-x, var(--left-wing-second-x)) * 1%) calc(var(--second-y, var(--left-wing-second-y)) * 1%), calc(var(--third-x, var(--left-wing-third-x)) * 1%) calc(var(--third-y, var(--left-wing-third-y)) * 1%));
         }
     }

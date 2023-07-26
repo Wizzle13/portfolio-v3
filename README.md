@@ -32,6 +32,7 @@ This is my third portfolio page.
  ![None](https://img.shields.io/badge/None-blue)
  ### Tools
  ### Dependences
+ GSAP
  ### Other Tools
  ![None](https://img.shields.io/badge/None-blue)
  ## Screenshots   
@@ -45,6 +46,9 @@ This is my third portfolio page.
  Email service for contact https://www.emailjs.com/
 
  Send Button https://codepen.io/aaroniker/pen/NWGZzXx
+
+ Social Media https://codepen.io/abdelrhmansaid/pen/poewGxX
+ 
  ## Links 
  GitHub Repository: https://github.com/Wizzle13/portfolio-v3
 
