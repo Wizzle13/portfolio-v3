@@ -171,3 +171,91 @@ document.querySelectorAll('.button').forEach(button => {
   })
 
 });
+
+
+// Projects
+
+const projects = [
+    {
+        name: 'The Andromeda Intro Quote Generator',
+        description: 'Randomly pulls into quotes form the tv series Andromeda. I was unable to find and api for this so i build my own json file containing all the quote. ',
+        url: 'https://wizzle13.github.io/andromeda-quote-generator',
+        github:' https://github.com/wizzle13/andromeda-quote-generator',
+        image:'andromeda.png'
+    },
+    {
+        name: 'The Ultimate README Generator',
+        description: 'This is a simple Node.js program designed to quickly create professional looking README.md documents.',
+        url: 'https://wizzle13.github.io/ultimate-readme-generator',
+        github:'https://github.com/Wizzle13/ultimate-readme-generator',
+        image:'readme-generator.png'
+    },
+    {
+        name: 'Password Generator',
+        description: 'Generates Ramdon Passwords. A simple site for generating random passwords.',
+        url: 'https://wizzle13.github.io/password-generator',
+        github:'https://github.com/Wizzle13/password-generator',
+        image:'password-generator.png'
+    },
+    {
+        name: 'Gym Buddy',
+        description: 'This page is designed as new site for a local Gym. It has features allowing members to select membership plans, and trainers directly on the site.',
+        url: 'https://gym--buddy.herokuapp.com',
+        github:'https://github.com/Wizzle13/gym-ecommerce',
+        image:'gym-buddy.png'
+    },
+    {
+        name: 'The Coders Blog',
+        description: 'A simple blog site',
+        url: 'https://the-coders-blog.herokuapp.com',
+        github:' https://github.com/wizzle13/The-Coders-blog',
+        image:'codersblog.jpg'
+    },
+    {
+        name: 'PokeBook',
+        description: 'A new social media site for Pokemon lovers, where you can connect with other Pokemon lovers and share messages.',
+        url: 'https://the-poke-book.herokuapp.com',
+        github:'https://github.com/Wizzle13/pokebook',
+        image:'pokebook.jpg'
+    },
+    {
+        name: 'Horiseon',
+        description: 'Horiseon wished for their site to follow accessibility standards and to be optimized for searh engines.',
+        url: 'https://wizzle13.github.io/horiseon',
+        github:'https://github.com/wizzle13/horiseon',
+        image:'horiseon.jpg'
+    },
+    {
+        name: 'Run Buddy',
+        description: 'Find your Run Buddy here. A mock website to offer running and training services. It was used as pratice for learning HTML and CSS.',
+        url: 'https://wizzle13.github.io/run-buddy',
+        github:'https://github.com/wizzle13/run-buddy',
+        image:'run-buddy.jpg'
+    }
+    
+];
+
+var cardSection = document.querySelector("#p-card");
+var loadProjects = function () {
+  
+    for (var i = 0; i < projects.length; i++) {
+      const newsection = projects[i]
+      $(cardSection).append(
+        "<div class='card' style='--clr: #009688'>" +
+          "<div class='img-box'>" +
+          "<img src='./images/projects/"+`${newsection.image}`+"'>" +
+          "</div>" +
+          "<div class='content'>" +
+          "<h2>" +
+          `${newsection.name}` +
+          "</h2>" +
+          "<p>"+ `${newsection.description}`+"</p>" +
+          "<a href="+`${newsection.github}`+">GitHub</a>" +
+          "<a href="+`${newsection.url}`+">Live Site</a>" +
+          "</div>" +
+          "</div>"
+      );
+    }
+  };
+  
+  loadProjects();
