@@ -16,8 +16,14 @@ justify-content: space-around;
 align-items: center;
 }
 
+.contactbox {
+    background: var(--section);
+    padding: 30px;
+    border-radius: 20px;
+}
+
 .wrapper {
-    padding: 50px 0 50px 0;
+    padding: 10px 0 50px 0;
     
 }
 
