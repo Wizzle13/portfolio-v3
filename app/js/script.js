@@ -31,7 +31,7 @@ const myTags = [
  var tagCloud = TagCloud('.textSphere', myTags,{
  
    
-   radius: 300,
+   radius: 200,
    maxSpeed: 'medium',
    initSpeed: 'medium',
    direction: 135,

@@ -168,3 +168,14 @@ textarea {
     }
 }
 
+@media (max-width: 480px) {
+
+    .contactsection {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .contact {
+        height: auto;
+    }
+}
