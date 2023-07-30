@@ -1,3 +1,6 @@
+html {
+  -webkit-font-smoothing: antialiased;
+}
 .resume{
   
   height: var(--sectionHeight);
@@ -17,4 +20,51 @@
 
 .certs img {
   width: 150px;
+}
+
+// download button
+.dlcontainer {
+	width: 240px;
+	height: 300px;
+	margin: 50px auto;
+	cursor: pointer;
+}
+
+.download {
+	font-size: 20px;
+	color: #fff;
+	background: #36D659;
+	padding: 20px;
+	width: 200px;
+	transition: 1s ease;
+	margin: 30px 0 0 0;
+}
+
+.dlbutton {
+	margin-left: 50px;
+}
+
+.dlcontainer:hover .download {
+	transform: rotate(360deg);
+}
+
+.download:active {
+	background: #25953E;
+}
+
+.load {
+	background: transparent;
+	background: RGBa(0, 0, 0, 0.2);
+	width: 200px;
+	height: 10px;
+	margin: 10px auto;
+	display: none;
+}
+
+.inner {
+	width: 5%;
+	height: 10px;
+	border-radius: 3px;
+	background: #333;
+	transition: 0.25s ease, 7s background;
 }

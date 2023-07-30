@@ -258,4 +258,31 @@ var loadProjects = function () {
     }
   };
   
+// download button
+$(document).ready(function() {
+	$(".download").on("click", function() {
+		$(".load").css("display", "block");
+		setTimeout(function() {
+			$(".inner").css("width", "90px");
+			$(".inner").css("background", "#36D659");
+		}, 1000);
+		setTimeout(function() {
+			$(".inner").css("width", "150px");
+		}, 2000);
+		setTimeout(function() {
+			$(".inner").css("width", "200px");
+		}, 3000);
+		setTimeout(function() {
+			$(".download").css("background", "transparent");
+			$(".download").html("Complete :)");
+
+		}, 3400);
+		$(this).css("background", "#A8C1BA");
+		$(this).css("text-align", "center");
+		$(this).html("Downloading...");
+      
+	});
+});
+
+
   loadProjects();
