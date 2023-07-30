@@ -1,5 +1,6 @@
 .projects {
-     display: flex;
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     background: var(--background);
@@ -81,7 +82,7 @@
 }
 
 .container .card .content h2 {
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--clr);
 }
@@ -97,7 +98,7 @@
     padding: 12px 25px;
     text-decoration: none;
     background: var(--highlight);
-    color: white;
+    color: var(--text1);
     font-weight: 500;
 }
 
