@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chris Burton</title>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG8FRCWX8B"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-RG8FRCWX8B');
+    </script>
     <link rel="stylesheet" href="./dist/style.css">
     <!-- script for the text sphere -->
     <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"> </script>
@@ -17,7 +26,7 @@
     </header>
     <main>
         <div class="introduction">
-            <img class="logo" src="https://via.placeholder.com/300x300" alt="Logo">
+            <!-- <img class="logo" src="https://via.placeholder.com/300x300" alt="Logo"> -->
             <div>
                 <h1>Hello, I'm Chris Burton</h1>
                 <p>I'm a Full Stack Developer</p>
@@ -50,6 +59,33 @@
             <div class="container" id="p-card">
                 
             </div>    
+        </div>
+
+        <div class="resume">
+            <h2 class='section-title'>Resume</h2>
+            <div class="textSphere"></div>
+            <div>
+                <section class="certs">
+                    <img src="./images/certs/fswd.png" alt="Full Stack Web Developer Badge"/>
+                </section>
+            </div>
+            <div class="dlcontainer">
+                <p>
+                    Click below to download full Resume
+                </p>
+                
+                <div class="download">
+                    <i class="fa fa-download"></i>
+                    <a href="../dist/cburton_resume.pdf" download>
+                        <span class="dlbutton">Download</span>
+                    </a>
+                </div>
+                
+                <div class="load">
+                    <div class="inner">
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="contact">
             <section class='contactme'>
@@ -98,32 +134,7 @@
       
               </section>
         </div>
-        <div class="resume">
-            <h2 class='section-title'>Resume</h2>
-            <div class="textSphere"></div>
-            <div>
-                <section class="certs">
-                    <img src="./images/certs/fswd.png" alt="Full Stack Web Developer Badge"/>
-                </section>
-            </div>
-            <div class="dlcontainer">
-                <p>
-                    Click below to download full Resume
-                </p>
-                
-                <div class="download">
-                    <i class="fa fa-download"></i>
-                    <a href="../dist/cburton_resume.pdf" download>
-                        <span class="dlbutton">Download</span>
-                    </a>
-                </div>
-                
-                <div class="load">
-                    <div class="inner">
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         
     </main>
     

@@ -179,9 +179,20 @@ textarea {
     .contactsection {
         display: flex;
         flex-wrap: wrap;
+        
     }
     
     .contact {
         height: auto;
+    }
+
+    textarea {
+        width: 300px;        
+    }
+
+    .sociallinks {
+        margin-top: 50px;
+        justify-content: center;
+        align-items: center;
     }
 }
