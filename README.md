@@ -26,11 +26,22 @@ This is my third portfolio page.
 
  ## Tools and Languages
  ### Frontend
+
+ ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=plastic&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=plastic&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=plastic&logo=Javascript&logoColor=white)
+![Sass](https://img.shields.io/badge/Sass-CC6699?style=plastic&logo=sass&logoColor=white)
+![Gulp](https://img.shields.io/badge/Gulp-CF4647?style=plastic&logo=gulp&logoColor=white)
+
  ### Backend
  ![None](https://img.shields.io/badge/None-blue)
  ### Database
  ![None](https://img.shields.io/badge/None-blue)
  ### Tools
+ ![npm](https://img.shields.io/badge/npm-CB3837?style=plastic&logo=npm&logoColor=white)
+ ![Github](https://img.shields.io/badge/GitHub-100000?plastic&logo=github&logoColor=white)
+ ![VSCode](https://img.shields.io/badge/VSCode-007ACC?plastic&logo=visualstudiocode&logoColor=white)
+
  ### Dependences
  GSAP
  ### Other Tools
