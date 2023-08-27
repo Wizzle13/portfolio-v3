@@ -1,9 +1,9 @@
 .about {
     display: block;
-    padding: 20px;
+    padding: 0 20px;
     background: var(--background);
     color: var(--text1);
-    height: var(--sectionHeigth);
+    min-height: var(--sectionHeigth);
     
     
 }
@@ -12,4 +12,13 @@
     max-width: 1600px;
     margin: 0 auto;
     
+}
+
+.sectioncontainder{
+    max-width: 1600px;
+    margin: 0 50px;
+    padding: 5px 50px 50px 50px;
+    background: var(--section);
+    border-radius: 20px;
+
 }

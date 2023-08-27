@@ -3,7 +3,7 @@ html {
 }
 .resume{
   
-  height: var(--sectionHeight);
+  min-height: var(--sectionHeight);
   background: var(--background);
   color: var(--text1);
 }

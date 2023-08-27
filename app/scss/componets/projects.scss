@@ -94,11 +94,12 @@
     position: relative;
     top: 15px;
     display: inline-block;
-    padding: 12px 25px;
+    padding: 12px 35px;
     text-decoration: none;
-    background: var(--highlight);
+    background: var(--button);
     color: var(--text1);
     font-weight: 500;
+    border-radius: 75%;
 }
 
 .container .card .content a:hover {
