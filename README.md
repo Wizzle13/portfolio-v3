@@ -5,7 +5,7 @@
 ![Last Commit](https://img.shields.io/github/last-commit/wizzle13/portfolio-v3?style=plastic)
 
 ## Description
-This is my third portfolio page.
+This is my third portfolio page. Continuing to improve.
 
  ## Table of Contents
  - [Purpose](#purpose)
@@ -23,7 +23,7 @@ This is my third portfolio page.
  - [Links](#links) 
 
  ## Purpose
-
+   This page has been built to show off my skills and projects.
  ## Tools and Languages
  ### Frontend
 

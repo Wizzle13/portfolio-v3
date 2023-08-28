@@ -101,6 +101,14 @@
   .wrapper .icon-container.linkedin:hover::before {
     background-color: var(--linkedin);
   }
+
+  .wrapper .icon-container.free-code-camp:hover::before {
+    background-color: var(--free-code);
+  }
+
+  .wrapper .icon-container.codepen:hover::before {
+    background-color: var(--codepen);
+  }
   
   @media screen and (max-width: 768px) {
     .wrapper .icon-container {
