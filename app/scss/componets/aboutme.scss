@@ -4,14 +4,18 @@
     background: var(--background);
     color: var(--text1);
     min-height: var(--sectionHeigth);
-    
-    
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
 }
 
 .aboutme-info {
     max-width: 1600px;
     margin: 0 auto;
-    
+    font-size: larger;
+    line-height: 4vh;
 }
 
 .sectioncontainder{
@@ -20,5 +24,20 @@
     padding: 5px 50px 50px 50px;
     background: var(--section);
     border-radius: 20px;
+}
 
+.profile3d {
+    border-radius: 15%;
+    width: 300px;
+    padding-right: 25px;
+}
+
+@media (max-width: 480px) {
+    .about-info {
+        flex-wrap: wrap;
+    }
+
+    .aboutme-info {
+        line-height: 2.2vh;
+    }
 }

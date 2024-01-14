@@ -278,7 +278,7 @@ var loadProjects = function () {
           `${newsection.name}` +
           "</h2>" +
           "<p>"+ `${newsection.description}`+"</p>" +
-          "<a href="+`${newsection.github}`+">GitHub</a>" +
+          "<a href="+`${newsection.github}`+">GitHub</a>  " +
           "<a href="+`${newsection.url}`+">Live Site</a>" +
           "</div>" +
           "</div>"
