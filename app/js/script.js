@@ -52,6 +52,7 @@ window.onload = function() {
       emailjs.sendForm('service_cceoahl', 'template_dkju3ol', this)
           .then(function() {
               console.log('SUCCESS!');
+              
           }, function(error) {
               console.log('FAILED...', error);
           });
@@ -64,7 +65,7 @@ document.querySelectorAll('.button').forEach(button => {
   let getVar = variable => getComputedStyle(button).getPropertyValue(variable);
 
   button.addEventListener('click', e => {
-
+        
       if(!button.classList.contains('active')) {
 
           button.classList.add('active');
@@ -136,9 +137,11 @@ document.querySelectorAll('.button').forEach(button => {
                               duration: .3,
                               onComplete() {
                                   button.classList.remove('active');
+                                  
                               }
+                              
                           })
-                      }, 2000)
+                      }, 5000)
                   }
               }]
           })
