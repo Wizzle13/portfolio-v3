@@ -141,7 +141,7 @@ document.querySelectorAll('.button').forEach(button => {
                               }
                               
                           })
-                      }, 5000)
+                      }, 50000)
                   }
               }]
           })
