@@ -141,7 +141,8 @@ document.querySelectorAll('.button').forEach(button => {
                               }
                               
                           })
-                      }, 50000)
+                      }, 5000)
+                      document.getElementById("contact-form").reset();
                   }
               }]
           })
